@@ -4,7 +4,7 @@
 }
 #topo{
 	height: 100px;
-	background: red;
+	background: rgba(94, 129, 245, 0);
 	font-size: 70px;
 	font-weight: 100;
 	font-style: italic;
@@ -15,12 +15,12 @@
 #menu ul, li{
 	display: inline-table;
 	padding: 10px 30px;
-	background-color: white;
+	background-color: rgba(199, 253, 253, 0.692);
 	cursor: pointer;
 }
 #menu ul li a{
 	text-decoration: nome;
-	color: red;
+	color: rgb(0, 0, 0);
 }
 #menu ul li:hover{
 	background-color: (0,0,0,0.5);
