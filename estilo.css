@@ -4,7 +4,7 @@
 }
 #topo{
 	height: 100px;
-	background: rgba(94, 129, 245, 0);
+	background: rgb(233, 6, 6);
 	font-size: 70px;
 	font-weight: 100;
 	font-style: italic;
@@ -15,7 +15,7 @@
 #menu ul, li{
 	display: inline-table;
 	padding: 10px 30px;
-	background-color: rgba(199, 253, 253, 0.692);
+	background-color: rgb(255, 9, 9);
 	cursor: pointer;
 }
 #menu ul li a{
@@ -26,7 +26,7 @@
 	background-color: (0,0,0,0.5);
 }
 #conteudo{
-	background-color: black;
+	background-color: rgb(255, 245, 245);
 	min-height: 70px;
 }
 #slider {
@@ -75,7 +75,7 @@
 }
 
 img{
-	max-width: 90%;
+	max-width: 100%;
 	width: 10cm;
 	height: 12cm;
 	object-fit: contain;
@@ -85,5 +85,5 @@ img{
     height: 130px;
     width: 130px;
     margin: 30px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
