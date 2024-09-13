@@ -1,89 +1,103 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-#topo{
+#topo {
 	height: 100px;
 	background: rgb(233, 6, 6);
 	font-size: 70px;
 	font-weight: 100;
 	font-style: italic;
 }
-#menu{
-	background-color: white(0,0,255,0.3);
+#menu {
+	background-color: rgba(255, 255, 255, 0.3);
 }
-#menu ul, li{
-	display: inline-table;
+#menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#menu ul li {
+	display: inline;
 	padding: 10px 30px;
 	background-color: rgb(255, 9, 9);
 	cursor: pointer;
 }
-#menu ul li a{
-	text-decoration: nome;
+#menu ul li a {
+	text-decoration: none;
 	color: rgb(0, 0, 0);
 }
-#menu ul li:hover{
-	background-color: (0,0,0,0.5);
+#menu ul li:hover {
+	background-color: rgba(0, 0, 0, 0.5);
 }
-#conteudo{
+#conteudo {
 	background-color: rgb(255, 245, 245);
-	min-height: 70px;
+	min-height: 10px;
 }
 #slider {
 	overflow: hidden;
+	width: 85%; /* Ajuste conforme necessário para o contêiner do slider */
 }
+
 #slider figure {
 	position: relative;
-	width: 500%;
+	width: 400%; /* Ajuste conforme necessário para o número de imagens */
 	margin: 0;
 	left: 0;
-	animation: 20s slider infinite;
+	animation: 12s slider infinite;
 }
+
 #slider figure img {
-	width: 20%;
+	width: 25%; /* Ajuste o tamanho da imagem para maior ou menor */
 	float: left;
 }
 
 @keyframes slider {
-	0% {
-		left: 0;
-	}
-	20% {
-		left: 0;
-	}
-	25% {
-		left: -100%;
-	}
-	45% {
-		left: -100%;
-	}
-	50% {
-		left: -200%;
-	}
-	70% {
-		left: -200%;
-	}
-	75% {
-		left: -300%;
-	}
-	95% {
-		left: -300%;
-	}
-	100% {
-		left: -400%;
-	}
+	0% { left: 0; }
+	20% { left: 0; }
+	25% { left: -100%; }
+	45% { left: -100%; }
+	50% { left: -200%; }
+	70% { left: -200%; }
+	75% { left: -300%; }
+	95% { left: -300%; }
+	100% { left: -400%; }
 }
 
-img{
-	max-width: 100%;
-	width: 10cm;
-	height: 12cm;
-	object-fit: contain;
+.image-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
 }
+
+.image-item {
+	position: relative;
+	width: 20cm; /* Ajuste conforme necessário */
+	height: 12cm;
+}
+
+.image-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.text-overlay {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
 .slogan-image {
-    float: left;
-    height: 130px;
-    width: 130px;
-    margin: 30px;
-    border-radius: 10%;
+	width: 70px; /* Ajuste o tamanho conforme necessário */
+	height: auto;
+	margin: 20px;
+	border-radius: 10%;
 }

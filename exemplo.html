@@ -1,121 +1,58 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <meta charset="pt-br">
-   <title>Site de exemplo</title>
-   <link rel="stylesheet" type="text/css" href="estilo.css">
- </head>
- <body>
-    <div><img class="slogan-image"  src="2.png"> </div>
-    <header id="topo">CARROS ESPORTIVOS
+<head>
+  <meta charset="pt-br">
+  <title>Site de exemplo</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+  <div><img class="slogan-image" src="2.png" alt="Slogan"></div>
+  <header id="topo">
+    CARROS ESPORTIVOS
+    <input type="text" name="job">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </header>
+  <nav id="menu">
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Quem somos</a></li>
+      <li><a href="">Produtos</a></li>
+      <li><a href="">Serviços</a></li>
+      <li><a href="">Contato</a></li>
+    </ul>
+  </nav>
 
-      <input type="text" name="job";
-      <i class="fa-solid fa-magnifying-glass"> </i></header>
-    <nav id="menu">
-      <ul>
-        <li>
-          <a href="">Home</a>
-        </li>
-         <li>
-          <a href="">Quem somos</a>
-        </li>
-         <li>
-          <a href="">Produtos</a>
-        </li>
-         <li>
-          <a href="">Servicos</a>
-        </li>
-         <li>
-          <a href="">Contato</a>
-        </li>
-        <div id="slider">
-         <figure>
-            <img src="5.png">
+  <section id="slider">
+    <figure>
+      <img src="5.png" alt="Imagem 1">
+      <img src="6.png" alt="Imagem 2">
+      <img src="7.png" alt="Imagem 3">
+      <img src="8.png" alt="Imagem 4">
+    </figure>
+  </section>
 
-           <img src="6.png">
+  <div class="image-container">
+    <div class="image-item">
+      <img src="5.png" alt="Produto 1">
+      <div class="text-overlay">Lexus IS Wax Edition<br>R$199.999,00</div>
+    </div>
+    <div class="image-item">
+      <img src="6.png" alt="Produto 2">
+      <div class="text-overlay">Ford Mustang<br>R$299.999,00</div>
+    </div>
+    <div class="image-item">
+      <img src="7.png" alt="Produto 3">
+      <div class="text-overlay">Chevrolet Corvette Z06<br>R$2.600.000,00</div>
+    </div>
+    <div class="image-item">
+      <img src="8.png" alt="Produto 4">
+      <div class="text-overlay">Supervettes Zr6X C6 Corvette<br>R$9.999.999,99</div>
+    </div>
+  </div>
 
-            <img src="7.png">
-
-            <img src="8.png">
-</figure>
-
-          
-          <div class="col-md-3">
-          <div class="product-top">
-          <img src="5.png">
-          <div class="overlay">
-            <button type="button" class="btn btn-secondary" title="Adicionar ao carrinho"><i class="fa fa-shopping-cart"></i></button>
-            </div>
-
-            <div class="product-bottom text-center">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
-            <h3> Lexus IS Wax Edition </h3>
-            <h5>R$199.999,00</h5>
-            </div>
-          </div>
-          </div>
-          <div class="col-md-3">
-          <div class="product-top">
-          <img src="6.png">
-          <div class="overlay">
-            <button type="button" class="btn btn-secondary" title="Adicionar ao carrinho"><i class="fa fa-shopping-cart"></i></button>
-            </div>
-
-            <div class="product-bottom text-center">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <h3>ford mustang</h3>
-            <h5>R$299.999,00</h5>
-            </div>
-          </div>
-          </div>
-        <div class="col-md-3">
-        <div class="product-top">
-        <img src="7.png">
-        <div class="overlay">
-          <button type="button" class="btn btn-secondary" title="Adicionar ao carrinho"><i class="fa fa-shopping-cart"></i></button>
-          </div>
-
-          <div class="product-bottom text-center">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star-o"></i>
-          <h3>Chevrolet Corvette Z06</h3>
-          <h5>R$2.600.000,00</h5>
-          </div>
-        </div>
-        </div>
-        <div class="col-md-3">
-        <div class="product-top">
-        <img src="8.png">
-        <div class="overlay">
-          <button type="button" class="btn btn-secondary" title="Adicionar ao carrinho"><i class="fa fa-shopping-cart"></i></button>
-          </div>
-
-          <div class="product-bottom text-center">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star-half-o"></i>
-          <i class="fa fa-star-o"></i>
-          <i class="fa fa-star-o"></i>
-          <h3> Supervettes Zr6X C6 Corvette</h3>
-          <h5>R$9.999.999,99</h5>
-          </div>
-        </div>
-        </div>
-
-      </div>
-      </ul>
-    </nav>
-    <section id="conteudo"></section>
- </body>
- </html>
+  <section id="conteudo">
+    <!-- Conteúdo dos produtos -->
+    <!-- ... -->
+  </section>
+</body>
+</html>
