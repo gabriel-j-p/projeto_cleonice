@@ -4,7 +4,7 @@
 }
 #topo {
 	height: 100px;
-	background: rgb(233, 6, 6);
+	background: rgb(44, 44, 44);
 	font-size: 70px;
 	font-weight: 100;
 	font-style: italic;
@@ -20,7 +20,7 @@
 #menu ul li {
 	display: inline;
 	padding: 10px 30px;
-	background-color: rgb(255, 9, 9);
+	background-color: rgb(218, 205, 205);
 	cursor: pointer;
 }
 #menu ul li a {
