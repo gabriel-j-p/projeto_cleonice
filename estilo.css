@@ -5,8 +5,8 @@
 #topo {
 	height: 100px;
 	background: rgb(44, 44, 44);
-	font-size: 70px;
-	font-weight: 100;
+	font-size: 80px;
+	font-weight: 800;
 	font-style: italic;
 }
 #menu {
@@ -96,8 +96,8 @@
 }
 
 .slogan-image {
-	width: 70px; /* Ajuste o tamanho conforme necessário */
+	width: 90px; /* Ajuste o tamanho conforme necessário */
 	height: auto;
-	margin: 20px;
+	margin: 12px;
 	border-radius: 10%;
 }
