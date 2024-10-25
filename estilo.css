@@ -20,7 +20,7 @@
 #menu ul li {
 	display: inline;
 	padding: 10px 30px;
-	background-color: rgb(116, 133, 115);
+	background-color: rgb(218, 205, 205);
 	cursor: pointer;
 }
 #menu ul li a {
@@ -31,7 +31,7 @@
 	background-color: rgba(0, 0, 0, 0.5);
 }
 #conteudo {
-	background-color: rgb(206, 43, 43);
+	background-color: rgb(255, 245, 245);
 	min-height: 10px;
 }
 #slider {
@@ -101,3 +101,49 @@
 	margin: 12px;
 	border-radius: 10%;
 }
+#rodape {
+	background-color: rgb(44, 44, 44);
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
+  }
+  
+  .rodape-conteudo {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+  }
+  
+  .rodape-info, .rodape-links, .rodape-social {
+	flex: 1;
+	min-width: 200px;
+	margin: 10px;
+  }
+  
+  .rodape-links ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .rodape-links ul li {
+	margin: 5px 0;
+  }
+  
+  .rodape-links ul li a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  .rodape-links ul li a:hover {
+	text-decoration: underline;
+  }
+  
+  .rodape-bottom {
+	border-top: 1px solid white;
+	padding-top: 10px;
+	margin-top: 20px;
+  }
+  
