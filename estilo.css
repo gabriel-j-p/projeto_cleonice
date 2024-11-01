@@ -20,7 +20,7 @@
 #menu ul li {
 	display: inline;
 	padding: 10px 30px;
-	background-color: rgb(218, 205, 205);
+	background-color: rgb(204, 0, 0);
 	cursor: pointer;
 }
 #menu ul li a {
@@ -31,7 +31,7 @@
 	background-color: rgba(0, 0, 0, 0.5);
 }
 #conteudo {
-	background-color: rgb(255, 245, 245);
+	background-color: rgb(255, 0, 149);
 	min-height: 10px;
 }
 #slider {
@@ -88,7 +88,7 @@
 	bottom: 10px;
 	left: 10px;
 	background: rgba(0, 0, 0, 0.6);
-	color: #fff;
+	color: #ae00ff;
 	padding: 10px;
 	border-radius: 5px;
 	font-size: 16px;
@@ -103,7 +103,7 @@
 }
 #rodape {
 	background-color: rgb(44, 44, 44);
-	color: white;
+	color: rgb(56, 255, 16);
 	padding: 20px 0;
 	text-align: center;
 	width: 100%;
@@ -146,4 +146,6 @@
 	padding-top: 10px;
 	margin-top: 20px;
   }
-  
+{
+	
+}
